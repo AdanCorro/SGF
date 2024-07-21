@@ -1,0 +1,166 @@
+@forward 'normalize';
+@forward'variables';
+@forward 'globales';
+
+.titulo-principal {
+    text-align: center;
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+.titulo2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+.titulo3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #fff;
+}
+.titulo-home {
+    padding: 0;
+    margin: 0;
+}
+
+.subtitulo-principal {
+    text-align: center;
+}
+
+.subtitulo2 {
+    text-align: center;
+}
+
+.link {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.link2{
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.link2:hover {
+    color: #000000;
+}
+
+.link:hover {
+    color: #000000;
+}
+
+.imagen {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-cetmar {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* tabla facturas */
+.tabla {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+}
+
+.admin-titulo {
+    text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 4px #919191;
+    padding: 2rem;
+}
+
+.tabla-colum {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-shadow: 2px 2px 4px #919191;
+    font-size: 1.8rem;
+}
+
+/* estilos para el buscador */
+.buscador-container {
+    padding: 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Crear formulario*/
+.container,.main-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 800px; /* Ancho máximo ajustado */
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 1rem; /* Espacio entre columnas */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ddd;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    grid-column: 1 / -1; /* Hacer que el título ocupe ambas columnas */
+}
+
+.btn-enviar, .btn-consultar {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem;
+    color: white;
+    font-size: 1rem;    
+    cursor: pointer;
+    grid-column: 1 / -1; /* Hacer que el botón ocupe ambas columnas */
+}
+
+.btn-enviar:hover, .btn-consultar:hover {
+    background-color: #0056b3;
+}
+.campo-formulario{
+    color: white;
+    font-weight: bold;
+}

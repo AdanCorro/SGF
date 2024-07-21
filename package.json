@@ -1,0 +1,23 @@
+{
+  "name": "sgf",
+  "version": "1.0.0",
+  "description": "Sistema Gestor de Facturas",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "GULP",
+    "NPM"
+  ],
+  "author": "Majo, Adan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.77.6"
+  }
+}
